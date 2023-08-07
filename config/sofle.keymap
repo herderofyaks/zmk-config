@@ -36,7 +36,7 @@
             label = "GRAVE_ESCAPE";
             #binding-cells = <0>;
             bindings = <&kp ESC>, <&kp GRAVE>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <(LSHIFT|RSHIFT)>;
         };
     };
 };
