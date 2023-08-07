@@ -45,7 +45,7 @@ behaviors {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_1";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             bindings = <&kp FSLH>, <&kp BACKSLASH>;
         };
     };
@@ -65,7 +65,7 @@ behaviors {
 &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T                                     &kp Y       &kp U       &kp I       &kp O       &kp P       &kp MINUS
 &kp LCTRL   &kp A       &kp S       &kp D       &kp F       &kp G                                     &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp SQT
 &td0        &kp Z       &kp X       &kp C       &kp V       &kp B        &kp PSCRN      &kp C_MUTE    &kp N       &kp M       &kp COMMA   &kp DOT     &td1        &kp RSHFT
-                        &kp LALT    &kp INSERT  &mo 1   &kp BACKSPACE    &kp LGUI       &kp RETURN    &kp SPACE   &mo 1       &kp LBKT    &kp RBKT
+                        &kp LALT    &kp INSERT  &mo 2   &kp BACKSPACE    &kp LGUI       &kp RETURN    &kp SPACE   &mo 1       &kp LBKT    &kp RBKT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
